@@ -1,0 +1,9 @@
+user_provided_deployment_id: kamata/lgbm_deploy_01
+user_provided_model_id: kamata/lgbm_03
+settings:
+  label: "CICD"
+  description: "lgbm custom deploy CICD"
+  importance: LOW  # NOTE: a higher importance value than "LOW" will trigger a review process
+                   # for any operation, such as 'create', 'update', 'delete', etc. So, practically
+                   # the user will need to wait for approval from a reviewer in order to be able
+                   # to apply new changes and merge them to the main branch.
