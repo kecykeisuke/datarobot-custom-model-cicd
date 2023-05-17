@@ -1,5 +1,5 @@
 user_provided_deployment_id: kamata/lgbm_deploy_01
-user_provided_model_id: kamata/lgbm_03
+user_provided_model_id: kamata/lgbm_01
 settings:
   label: "CICD"
   description: "lgbm custom deploy CICD"
