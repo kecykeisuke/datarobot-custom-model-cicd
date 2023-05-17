@@ -24,7 +24,6 @@ def read_input_data(input_binary_data):
      # pipeline=joblib.load(open(g_code_dir+pipeline_path, 'rb'))
      #Apply transformation on data
      #data = pipeline.transform(input_binary_data)
-     input_binary_data = input_binary_data
      return pd.read_csv(io.BytesIO(input_binary_data)) 
 
 def score(data,model,**kwargs):
